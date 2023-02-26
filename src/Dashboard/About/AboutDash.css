@@ -1,0 +1,180 @@
+.About-main-dash{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+ }
+ 
+ .About-h1-dash{
+     color: #001E6C;
+     font-size: 50px;
+     margin: 0 auto;
+     width: fit-content;
+     border-bottom: 5px solid #0066FF;
+     
+ }
+ 
+ 
+ .About-p-dash{
+     font-size: 1.5rem;
+ }
+ 
+ .About-h3-dash{
+     color: #001E6C;
+     font-size: 28px;
+     margin: 0;
+     padding-top: 20px;
+ }
+ 
+ .About-image-dash {
+     height: 35vh;
+   
+ }
+ 
+ .About-image-dash img{
+     height: 350px;
+     object-fit: contain;
+     border-radius: 20%;
+ }
+ 
+ .About-content-dash{
+     display: flex;
+     margin: 3vh 0;
+     gap: 30px;
+     margin-top: 100px;
+     justify-content: center;
+ }
+ 
+ 
+ .About-text-dash{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+ }
+ 
+ .About-text-dash p{
+ width: 100%;
+ }
+
+
+
+ .Edit-about{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-color: grey;
+    padding: 20px;
+    max-width: 500px;
+    width: 30vw;
+ }
+
+ .edit-about-button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+ }
+ 
+ .Choose-about-image{
+    width: 10vw;
+    height: 30px;
+    font-size: 17px;
+ }
+ 
+
+
+.About-title-input{
+    width: 20vw;
+    height: 25px;
+    margin-top: 15px;
+}
+
+.About-description-input{
+    width: 20vw;
+    height: 200px;
+    margin-top: 10px;
+   
+}
+
+.About-submit-button{
+    width: 80px;
+    height: 25px;
+    font-size: 18px;
+   margin-top: 15px;
+}
+
+.About-label{
+    font-size: 20px;
+}
+ 
+.Exit-about{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+ @media all and (min-width:1001px) {
+     .hide-show-dash {
+         display: none;
+     }
+ }
+ 
+ @media(max-width:1000px){
+ 
+     .About-h1-dash{
+        text-align: center;
+        
+     }
+     .About-title-hr-dash{
+         width:20%;
+         position: relative;
+         left: 0px;
+         text-align: center;
+         
+     }
+ 
+     .About-content-dash{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 40vh 40vh 40vh;
+         margin-top: 0px;
+     }
+ 
+     .About-image-dash {
+       text-align: center;
+       margin-bottom: 19%;
+     }
+ 
+     .About-image-dash img{
+        display: none;
+     }
+ 
+ 
+     .hide-show-dash {
+         width: 70%;
+         object-fit: contain;
+         border-radius: 20%;
+         margin: 0 auto;
+     }
+     
+     .About-text-dash p{
+             width: 70vw;
+             }
+ 
+     .About-h3-dash{
+                 text-align: center;
+     }
+ 
+     .About-text-dash{
+        gap: 80px;
+        margin: 0vh 2vh 0 2vh;
+        align-self: center;
+        align-items: center;
+        text-align: center;
+     }
+    
+     .About-main-dash{
+         margin-top: 50px;
+     }
+ }
+ 
+ 

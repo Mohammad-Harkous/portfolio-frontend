@@ -1,0 +1,101 @@
+.ServiceSwiper-dash {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .Service-main-dash{
+    margin-top: 100px;
+  }
+  
+  .ServiceSlide-dash {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    background-color:#413F3D ;
+    color: white;
+    margin-top: 100px;
+    padding : 10px;
+    height: 380px;
+
+
+  }
+  
+  .Service-h2-dash{
+    text-align: center;
+    color: #0066FF;
+  }
+
+  .Service-h1-dash{
+    color: #001E6C;
+    font-size: 50px;
+    border-bottom: 5px solid #0066FF;
+
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+    }
+
+    .Service-p-dash{
+      margin-top: 20px;
+    }
+
+    .Create-service-button{
+      width: 200px;
+    height: 50px;
+    font-size: 20px;
+    }
+
+.Service-title-input{
+  width: 20vw;
+  height: 25px;
+  margin-top: 10px;
+}
+
+.Service-description-input{
+  width: 30vw;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.Service-submit-button{
+  width: 80px;
+  height: 25px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
+
+.Delete-service-button{
+position: absolute;
+right: 10px;
+bottom: 10px;
+width: 100px;
+height: 30px;
+font-size: 20px;
+}
+
+.Exit-service{
+  width: 80px;
+  height: 25px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.Service-labell{
+  font-size: 20px;
+}
+    @media(max-width:1000px){
+      .Service-main-dash{
+        margin-top: 50px;
+      }
+
+
+    .ServiceSlide-dash{
+      margin-top: 80px;
+    }
+     
+    
+    }

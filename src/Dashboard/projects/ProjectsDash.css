@@ -1,0 +1,289 @@
+.project-main-dash{
+    background-color: #413F3D;
+    color: #F2F1EF; 
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 150px;
+}
+
+.project-title-dash{
+    margin: 0 auto;
+    padding-top: 17px;
+    border-bottom: 5px solid #0066FF;
+    width: fit-content;
+    font-size: 50px;
+}
+
+
+
+ .project-images-dash{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: 380px ;
+    margin-top: 60px;
+    text-align:center;
+    width:85%;
+    margin: 0 auto;
+    padding-top: 50px;
+} 
+
+.project-images-img-dash{
+    margin: 0 auto;
+}
+
+
+ .project-images-img-dash img{
+    width: 24vw;
+    height: 30vh;
+    aspect-ratio: auto 1 / 1;
+} 
+
+.show_button-dash{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+ .show_button-dash button{
+    min-width: 200px;
+    min-height: 50px;
+    background-color: #0066FF;
+    color: #FFFFFF;
+    font-size: 1rem;
+} 
+
+
+.project-images-img-dash{
+    position: relative;
+  } 
+  
+  
+  .image-dash {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-dash {
+    position: absolute;
+    top: 5%;
+    bottom: 0;
+    left: 2.5%;
+    right: 2%;
+    background-color: #222222;
+    opacity: 0.8;
+    overflow: hidden;
+    width: 95%;
+    height: 70%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+  }
+
+  .project-images-img-dash:hover .overlay-dash {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  .text-dash {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; 
+  }
+
+  .link-dash span{
+    font-weight: 500;
+    position: absolute;
+    writing-mode: vertical-rl;
+    writing-mode: tb-rl;
+    letter-spacing: 4px;
+    top: 20%;
+    left: 90%;
+    cursor: mouse;
+  }
+
+
+
+ .link-dash a{
+    text-decoration: none;
+  }
+
+  .Create-newProject{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .Project-label{
+    color: #0066FF;
+    font-size: 20px;
+  }
+
+  .Project-title-input{
+    width: 20vw;
+    height: 25px;
+    margin-top: 10px;
+  }
+
+  .Project-description-input{
+    width: 30vw;
+    height: 200px;
+    margin-top: 10px;
+  }
+
+  .Project-submit-button{
+    width: 80px;
+    height: 25px;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+   
+ 
+  .Project-delete-button{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+  }
+
+  .Choose-project-image{
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    margin-top: 10px;
+  }
+
+  .Exit-project{
+    width: 80px;
+    height: 25px;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .Project-label-image{
+    font-size: 20px;
+  }
+
+/*---------------------------------------------------------------------------------------------*/
+
+/* responsive section*/
+
+@media screen and (max-width: 1200px){
+    .project-main-dash{
+      margin-top: 50px;
+    }
+
+    .project-images-dash{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -20px; 
+        gap: 30px;
+    }  
+
+     .project-images-img-dash img{
+        min-width: 500px;
+        margin-top: 15px;
+        aspect-ratio: auto 1 / 1;
+        height: 30vh;
+    }  
+
+    .overlay-dash {
+        position: absolute;
+        top: 8%;
+        bottom: 0;
+        left: 2.5%;
+        right: 0;
+        background-color: #222222;
+        opacity: 0.8;
+        overflow: hidden;
+        width: 95%;
+        height: 90%;
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+      }
+
+
+      .show_button-dash{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+   
+   
+
+   
+}
+
+
+
+
+
+ @media screen and (max-width: 780px) {
+
+    .project-images-dash{
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+    }  
+
+    .project-images-img-dash img{
+         min-width: 330px;
+         margin-top: 15px;
+        aspect-ratio: auto 1 / 1;
+        height: 20vh;
+        
+    }  
+
+
+    .overlay-dash {
+        position: absolute;
+        top: 9%;
+        bottom: 0;
+        left: 2.5%;
+        right: 0;
+        background-color: #222222;
+        opacity: 0.8;
+        overflow: hidden;
+        width: 95%;
+        height: 90%;
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+      }
+
+} 
+
+
+@media screen and (max-width: 780px) and (orientation: landscape) {
+
+    .project-images-dash{
+        display: flex;
+    }  
+
+     .project-images-img-dash img{
+        min-width: 450px;
+        aspect-ratio: auto 1 / 1; 
+        height: auto;
+      
+    }  
+    
+    
+}
+
+

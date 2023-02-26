@@ -1,0 +1,97 @@
+.SlideshowSwiper-dash {
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+
+  .Slideshow-Swiperslide-dash {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .Slideshow-container-dash{
+    width: 100%;
+    height: 90vh;
+  }
+  
+  .Slideshow-Swiperslide-dash img {
+    width: 100%;
+    height: 90vh;
+  }
+  
+  .AddSlide{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .DeleteSlide{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+  }
+
+  .Choose-slider-image{
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+  }
+
+  .Slider-label{
+    color: #0066FF;
+    font-size: 20px;
+  }
+
+  .Slider-title-input{
+    background-color:grey ;
+    width: 200px;
+    height: 25px;
+  }
+
+  .Slider-title-input::placeholder{
+    font-size: 20px;
+  }
+
+  .Submit-button{
+    width: 80px;
+    height: 25px;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+.Exit-slider{
+  width: 80px;
+  height: 25px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+  .Slider-opendiv{
+    background-color: black;
+    width: 300px;
+  }
+
+  .Image-slider-label{
+    color: #0066FF;
+    font-size: 20px;
+  }

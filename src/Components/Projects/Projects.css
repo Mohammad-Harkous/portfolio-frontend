@@ -1,0 +1,232 @@
+.project-main{
+    background-color: #413F3D;
+    color: #F2F1EF; 
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 150px;
+}
+
+.project-title{
+    margin: 0 auto;
+    padding-top: 17px;
+    border-bottom: 5px solid #0066FF;
+    width: fit-content;
+    font-size: 50px;
+}
+
+
+
+ .project-images{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: 380px ;
+    margin-top: 60px;
+    text-align:center;
+    width:85%;
+    margin: 0 auto;
+    padding-top: 50px;
+} 
+
+.project-images-img{
+    margin: 0 auto;
+}
+
+
+ .project-images-img img{
+    width: 24vw;
+    height: 30vh;
+    aspect-ratio: auto 1 / 1;
+} 
+
+.show_button{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+ .show_button button{
+    min-width: 200px;
+    min-height: 50px;
+    background-color: #0066FF;
+    color: #FFFFFF;
+    font-size: 1rem;
+} 
+
+
+.project-images-img{
+    position: relative;
+  } 
+  
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 5%;
+    bottom: 0;
+    left: 2.5%;
+    right: 2%;
+    background-color: #222222;
+    opacity: 0.8;
+    overflow: hidden;
+    width: 95%;
+    height: 70%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+  }
+
+  .project-images-img:hover .overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; 
+  }
+
+  .link span{
+    font-weight: 500;
+    position: absolute;
+    writing-mode: vertical-rl;
+    writing-mode: tb-rl;
+    letter-spacing: 4px;
+    top: 20%;
+    left: 90%;
+    cursor: mouse;
+  }
+
+
+
+ .link a{
+    text-decoration: none;
+  }
+
+
+/*---------------------------------------------------------------------------------------------*/
+
+/* responsive section*/
+
+@media screen and (max-width: 1200px){
+    .project-main{
+      margin-top: 50px;
+    }
+
+    .project-images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -20px; 
+        gap: 30px;
+    }  
+
+     .project-images-img img{
+        min-width: 500px;
+        margin-top: 15px;
+        aspect-ratio: auto 1 / 1;
+        height: 30vh;
+    }  
+
+    .overlay {
+        position: absolute;
+        top: 8%;
+        bottom: 0;
+        left: 2.5%;
+        right: 0;
+        background-color: #222222;
+        opacity: 0.8;
+        overflow: hidden;
+        width: 95%;
+        height: 90%;
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+      }
+
+
+      .show_button{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+   
+   
+
+   
+}
+
+
+
+
+
+ @media screen and (max-width: 780px) {
+
+    .project-images{
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+    }  
+
+    .project-images-img img{
+         min-width: 330px;
+         margin-top: 15px;
+        aspect-ratio: auto 1 / 1;
+        height: 20vh;
+        
+    }  
+
+
+    .overlay {
+        position: absolute;
+        top: 9%;
+        bottom: 0;
+        left: 2.5%;
+        right: 0;
+        background-color: #222222;
+        opacity: 0.8;
+        overflow: hidden;
+        width: 95%;
+        height: 90%;
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+      }
+
+} 
+
+
+@media screen and (max-width: 780px) and (orientation: landscape) {
+
+    .project-images{
+        display: flex;
+    }  
+
+     .project-images-img img{
+        min-width: 450px;
+        aspect-ratio: auto 1 / 1; 
+        height: auto;
+      
+    }  
+    
+    
+}
+
+

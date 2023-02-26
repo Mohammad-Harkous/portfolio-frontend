@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+.Navbar-header{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor: #413F3D;
+	--textColor: #F2F1EF;
+}
+
+.Navbar-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 10vh;
+	padding: 0 2rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+}
+
+
+.Navbar-logo{
+	font-size: 2rem;
+}
+
+.Navbar-header nav a {
+    font-size: 1.5vw;
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Navbar-header nav a:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+  }
+  
+  .Navbar-header nav a:hover:after {
+    width: 100%;
+    background: #0066FF;
+  }
+
+
+.Navbar-header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+.Navbar-header div,nav {
+	display: flex;
+	align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+	.Navbar-header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.Navbar-header nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 50%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		transition: 1s;
+		transform: translateY(-100vh);
+        z-index: 2;
+	}
+    .Navbar-header nav a{
+        width: 100%;
+    }
+    
+	.Navbar-header .responsive_nav {
+		transform: none;
+	}
+
+	.Navbar-header nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	.Navbar-header nav a {
+		font-size: 1.5rem;
+	}
+}

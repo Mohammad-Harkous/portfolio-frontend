@@ -1,0 +1,102 @@
+.loginMain {
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #e1e3eb;
+}
+
+.inputArea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.login-form{
+  margin-left: 13rem;
+}
+.loginSubMain {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    margin-left: 2rem;
+    width: 40vw;
+    box-shadow: 11px 12px 13px 12px rgb(207 207 207);
+    padding-bottom: 5rem; 
+    border-radius: 60px;
+    background-color: white;
+}
+
+.loginImgs {
+  padding-top: 10px; 
+  justify-content: center;
+  display: flex;
+}
+
+.loginContainerImage {
+  background-color: rgb(223, 221, 221);
+  border-radius: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 115px;
+  width: 115px;
+}
+
+.loginProfile {
+  height: 100px;
+  width: 100px;
+  border-radius: 130px;
+}
+
+input .loginName {
+  align-items: center;
+  width: auto;
+  height: auto;
+  border-radius: 60px;
+  box-shadow: inset 0px 0px 25px 0px #888;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.loginEmail {
+  height: auto;
+  width: auto;
+  position: absolute; 
+  padding: 14px 0 0 25px;
+}
+
+.loginName {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.loginSecondInput {
+  padding-top: 20px;
+}
+
+.LoginButton {
+  width: 380px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: #b103fc;
+  color: white;
+  font-size: 25px;
+  border: none;
+}
+.loginButton {
+  padding-top: 25px;
+}
+
+.link {
+  font-size: 25px;
+  font-weight: 400;
+}
+a {
+  color: blue;
+}
+
